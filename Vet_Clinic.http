@@ -1,0 +1,11 @@
+@Vet_Clinic_HostAddress = http://localhost:5017
+
+GET {{Vet_Clinic_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Vet_Clinic_HostAddress}}/todos/1
+Accept: application/json
+
+###
